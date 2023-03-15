@@ -1,0 +1,11 @@
+.AssetPage {
+  margin-top: 39px;
+}
+
+.AssetPage .back {
+  top: 5px;
+}
+
+.AssetPage .asset-container {
+  width: 100%;
+}

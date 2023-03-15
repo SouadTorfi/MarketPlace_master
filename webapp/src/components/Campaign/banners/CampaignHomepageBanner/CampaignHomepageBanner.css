@@ -1,0 +1,61 @@
+.CampaignHomepageBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../mvfw-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  padding: 16px 48px;
+}
+
+.CampaignHomepageBanner .ui.header {
+  color: white;
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.CampaignHomepageBanner p {
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.CampaignHomepageBanner .copy {
+  flex: 0 1 auto;
+  margin-bottom: 20px;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CampaignHomepageBanner .ui.button.browse-button {
+  flex: none;
+}
+
+@media (max-width: 768px) {
+  .CampaignHomepageBanner {
+    background-image: url(../mvfw-banner-mobile.png);
+    height: auto;
+    padding: 25px 48px;
+  }
+  .CampaignHomepageBanner .copy {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .CampaignHomepageBanner .ui.header {
+    font-size: 20px;
+  }
+  .CampaignHomepageBanner p {
+    font-size: 14px;
+  }
+}
